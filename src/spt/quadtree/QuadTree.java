@@ -27,7 +27,7 @@ public class QuadTree
 	}
 	
 	/**
-	 * Add the input point to the the QuadTree
+	 * Add the input point to the QuadTree.
 	 * @param pt
 	 */
 	public void add(Vector2D pt)
@@ -38,7 +38,7 @@ public class QuadTree
 	
 
 	/**
-	 * Find the QuadNode which contains the input point.
+	 * Find the smallest QuadNode which contains the input point.
 	 * @param pt
 	 * @return
 	 */

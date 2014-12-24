@@ -42,7 +42,7 @@ public class QuadNode
 	 * A QuadNode is a leaf if it has no children.
 	 * @return
 	 */
-	public boolean isLeaf() { return NE == null && SW == null && SE == null && SW == null; }
+	public boolean isLeaf() { return NE == null && NW == null && SE == null && SW == null; }
 	
 	/**
 	 * Return the set of points that are contain inside this QuadNode.
